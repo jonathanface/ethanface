@@ -46,6 +46,7 @@ func main() {
 	if !strings.HasPrefix(port, ":") {
 		addr = ":" + port
 	}
+	log.Printf("listening on %s", addr)
 
 	if err := r.Run(addr); err != nil {
 		log.Fatal(err)
