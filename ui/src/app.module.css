@@ -1,0 +1,8 @@
+
+.splashImage {
+    margin:1em;
+    border:1px solid #333;
+    border-radius: 15px;
+    height:auto;
+    max-width: 300px;
+}
