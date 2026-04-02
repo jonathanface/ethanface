@@ -7,7 +7,7 @@ on:
 
 env:
   AWS_REGION: ${{ secrets.AWS_REGION }}
-  ECR_REPOSITORY: ethan/site
+  ECR_REPOSITORY: nicholas/site
 
 jobs:
   test:
@@ -81,8 +81,8 @@ jobs:
     env:
       ECS_SERVICE: ${{secrets.AWS_ECS_SERVICE}}
       ECS_CLUSTER: ${{secrets.AWS_ECS_CLUSTER }}
-      ECS_TASK_DEFINITION: ${{ '.aws/ethan_task.json' }}
-      CONTAINER_NAME: ${{ 'ethan' }}
+      ECS_TASK_DEFINITION: ${{ '.aws/nicholas_task.json' }}
+      CONTAINER_NAME: ${{ 'nicholas' }}
   
     steps:
       - name: Checkout

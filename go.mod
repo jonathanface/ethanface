@@ -1,4 +1,4 @@
-module ethanface
+module nicholasface
 
 go 1.22.2
 
