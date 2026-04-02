@@ -1,4 +1,4 @@
-APP_NAME := ethan
+APP_NAME := nicholas
 
 .PHONY: build run clean
 
